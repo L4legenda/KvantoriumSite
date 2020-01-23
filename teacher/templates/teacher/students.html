@@ -1,0 +1,50 @@
+{% extends "wrapper.html" %}
+
+{% block content %}
+<style type="text/css">
+	th, td{
+		text-align: center;
+	}
+</style>
+<main class="container mt-4">
+	<div class="row">
+		<div class="col-2 p-3 bg-light text-dark">
+			{% include "teacher/menu.html" %}
+		</div>
+		<div class="col-9 offset-1 p-3 bg-light text-dark" style="overflow-x: auto;">
+			<table class="table table-hover">
+				<thead>
+					<tr >
+						<th scope="col">Ученик</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+						<th scope="col">01.01</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<th scope="row">Фокша Александр Сергеевич</th>
+					<td>
+						Пропустил
+					</td>
+					<td>Пропустил</td>
+					<td>Пропустил</td>
+				</tr>
+				</tbody>
+
+			</table>
+		</div>
+	</div>
+</main>
+{% endblock %}

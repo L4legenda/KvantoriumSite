@@ -1,0 +1,26 @@
+{% extends "wrapper.html" %}
+
+{% block content %}
+<div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="offset-2 col-8">
+			<form>
+				<legend>Форма авторизации</legend>
+				<div class="form-group">
+					<label for="">Логин</label>
+					<input type="text" class="form-control" placeholder="Логин">
+				</div>
+				<div class="form-group">
+					<label for="">Пароль</label>
+					<input type="text" class="form-control" placeholder="Пароль">
+				</div>
+				<div class="row">
+					<button type="submit" class="btn btn-primary mt-2 mb-3 offset-4 col-4">Авторизировать</button>
+					<a href="/singup" class="col-12 text-center">нет аккаунта</a>
+				</div>
+				
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
